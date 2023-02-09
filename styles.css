@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 
-body {font-family: 'Unbounded', cursive;}
+body {font-family: 'Unbounded', cursive;
+color: #7f5af0;
+background-color: #16161a;
+}
+
+nav { background-color:#232946;
+
+}
+
+nav > a {
+    color:#b8c1ec;
+    text-decoration:none;
+    padding: 8px 12px;
+    display: inline-block;
+
+}
+
+nav > a:hover {
+    background-color: #72757e;
+}
