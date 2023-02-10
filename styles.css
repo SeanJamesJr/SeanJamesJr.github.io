@@ -21,3 +21,9 @@ nav > a {
 nav > a:hover {
     background-color: #72757e;
 }
+
+hr{
+    height: 10px;
+    background-color:#a786df;
+    border:none;
+}
