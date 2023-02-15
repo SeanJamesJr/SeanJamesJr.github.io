@@ -23,23 +23,28 @@ do so with the ways provided:</p>
 <li>sjamesjr2024@banneker.nyc</li>
 
 <p> Use this form to Contact me.</p>
-<form>
-    <label>Name:</label>
+<form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post">
+
+>    <label>Name:</label>
     <br>
-     <input placeholder="Name here">
+     <input placeholder="Name here" name="full name">
      <br>
      <label>Email:</label>
      <br>
-     <input placeholder=" Email Here">
+     <input placeholder=" Email Here" name="Full email here">
      <br>
      <label> Best Contact Date:</label>
      <br>
-     <input type="date">
+     <input type="date" name=" Date of contact">
      <br>
      <label> Description</label>
      <br>
-     <textarea></textarea>
+     <textarea name="comments"></textarea>
      <input type="submit">
+     <input type="reset">
+     <input name="send-to" value="sjamesjr@brooklynsteamcenter.org" hidden>
      </form>
 </form>
 </body>
