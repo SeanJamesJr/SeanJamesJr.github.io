@@ -48,3 +48,12 @@ input:focus, text area:focus {
 
 .center{text-align: center;}
 
+#linkten {font-size: 54px;
+    color: palevioletred ;
+}
+#github {font-size: 54px;
+    color: palevioletred;
+}
+#gmail {font-size: 54px;
+    color: palevioletred;
+}
